@@ -1,0 +1,13 @@
+.gdbar img {
+  display: none;
+}
+
+slides > slide:not(.nobackground):before {
+  width: 140px;
+  height: 50px;
+  background-size: 140px 50px;
+}
+
+slide img {
+  max-width: 100%;
+}
